@@ -1,0 +1,105 @@
+/* Estilo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+header {
+    background-color: #9b0000;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FFA500;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #9b0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo específico para o cabeçalho */
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilo específico para a navegação */
+nav ul li {
+    font-size: 20px;
+}
+
+/* Estilo específico para os links da navegação */
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Estilo específico para o rodapé */
+footer p {
+    font-size: 14px;
+}
+
+/* Ícones */
+nav ul li a i {
+    margin-right: 5px;
+}
+
+/* Estilo para notícias */
+.news-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    color: #ff2400;
+}
+
+.news-item p {
+    color: #ccc;
+}
+
+/* Estilo para revisões e análises */
+.review-item, .event-info, .games-info {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.review-item h3 {
+    color: #ff2400;
+}
+
+.review-item p, .event-info p, .games-info p {
+    color: #ccc;
+}
+
